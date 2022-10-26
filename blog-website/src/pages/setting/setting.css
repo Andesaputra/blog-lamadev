@@ -1,0 +1,105 @@
+.setting {
+  display: flex;
+}
+
+.setting-wrapper {
+  flex: 9;
+  padding: 50px 200px;
+}
+
+.setting-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.setting-title-update {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.setting-title-delete {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.setting-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.setting-form-profile {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.setting-form-profile > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.setting-profile-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: lightcoral;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.setting-form > label {
+  font-size: 20px;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.setting-form > input {
+  padding-left: 10px;
+}
+
+.setting-form > input:focus {
+  padding-left: 10px;
+}
+
+.setting-form > input {
+  color: gray;
+  margin: 10px 0;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.setting-submit {
+  width: 150px;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.update-alert-sucess {
+  text-align: center;
+  margin-top: 15px;
+  color: green;
+}
+
+.update-alert-error {
+  text-align: center;
+  margin-top: 15px;
+  color: red;
+}
